@@ -236,7 +236,7 @@ namespace StringMath
 				start++;
 				count = 1;
 				
-				totalResult = result + divResult.FixNumber();
+				totalResult = result + divResult.FixNumber().Simplify();
 				
 				if(totalResult.GetDecimalLength() >= nofMaxDecimalDigits)
 					return ((s1*s2) < 0 ? "-" : "") + totalResult;

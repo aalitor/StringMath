@@ -30,7 +30,7 @@ namespace StringMath
 			//
 			Random rnd = new Random();
 			
-			Debug.WriteLine("0.13".Sum("0.190", true).Simplify());
+			Clipboard.SetText("100".Factorial());
 			
 			
 		}
